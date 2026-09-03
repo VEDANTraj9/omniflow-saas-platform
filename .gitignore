@@ -1,0 +1,38 @@
+# Compiled Java / Maven files
+**/target/
+**/.mvn/
+*.class
+
+# IDE & Editor files
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Node dependencies & logs
+**/node_modules/
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/.next/
+**/out/
+
+# Python Virtual Environments & Cache
+**/__pycache__/
+*.py[cod]
+*$py.class
+**/.venv/
+**/env/
+
+# Environment Variables & Sensitive data
+**/.env
+**/.env.local
+**/.env.*.local
+
+# Operating System files
+.DS_Store
+Thumbs.db
